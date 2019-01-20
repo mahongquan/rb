@@ -3,9 +3,7 @@ module.exports = function(api) {
 
   return {
     highlightCode:false,
-    presets: [
-      ['@babel/preset-env',{targets: { electron: '3.0' }}],
-    ],
+
     plugins: [
       '@babel/plugin-syntax-jsx',
       '@babel/plugin-transform-react-jsx',
